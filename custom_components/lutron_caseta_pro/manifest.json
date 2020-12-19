@@ -5,5 +5,11 @@
   "issue_tracker": "https://github.com/upsert/lutron-caseta-pro/issues",
   "dependencies": ["configurator"],
   "codeowners": ["@upsert"],
-  "requirements": []
+  "requirements": [],
+  "config_flow": true,  
+  "homekit": {
+    "models": [
+      "L-BDGPRO2"
+    ]
+  }
 }
